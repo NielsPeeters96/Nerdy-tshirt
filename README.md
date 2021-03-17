@@ -1,4 +1,4 @@
-# Browser Technologies - De eindopdracht ✨ Progressive Enhanced Browser Technologie
+# Nerdy T-Shirt
 
 Voor deze opdracht ga je een interactieve toepassing ontwerpen. Zorg dat alle gebruikers, met alle browsers, in iedere context minimaal de core functionaliteit te zien, horen en/of voelen krijgen.
 
@@ -23,16 +23,11 @@ Polyfills en NPM packages op de client zijn niet toegestaan, op de server kun je
 
 Gebruik [caniuse.com](https://caniuse.com), [html5test.com](https://html5test.com), [css3test.com](http://css3test.com) en [kangax.github.io/compat-table/es6/](https://kangax.github.io/compat-table/es6/)
 
+## wireflows
 
-## Use Case
-Nerdy T-Shirt
-
-
-## wireflow
-
-[Home]
-[Bestelpagina]
-[Overzichtspagina]
+[Home]"https://github.com/NielsPeeters96/Nerdy-tshirt/blob/master/docs/img/Home.jpg"
+[Bestelpagina]"https://github.com/NielsPeeters96/Nerdy-tshirt/blob/master/docs/img/Bestelpagina.jpg"
+[Overzichtspagina]"https://github.com/NielsPeeters96/Nerdy-tshirt/blob/master/docs/img/Overzichtspagina.jpg"
 
 ## Criteria
 
