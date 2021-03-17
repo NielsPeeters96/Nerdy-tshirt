@@ -24,15 +24,9 @@ Polyfills en NPM packages op de client zijn niet toegestaan, op de server kun je
 Gebruik [caniuse.com](https://caniuse.com), [html5test.com](https://html5test.com), [css3test.com](http://css3test.com) en [kangax.github.io/compat-table/es6/](https://kangax.github.io/compat-table/es6/)
 
 
-## Use Cases
+## Use Case
+Nerdy T-Shirt
 
-1. [Enquete over de minor Web Development](Usecase-enquete.md)
-2. [Nerdy T-Shirt](Usecase-t-nerdy-shirt.md)
-3. [Online poll met resultaten](Usecase-online-poll.md)
-4. [Online Foto album](Usecase-online-foto-album.md)
-5. [Routebeschrijving naar het Device Lab](Usecase-routebeschrijving-device-lab.md)
-6. [Sportwedstrijd score website](Usecase-score-website.md)
-7. Heb je zelf een idee? Dat kan, schrijf een use case en kom even overleggen.
 
 ## Werkwijze
 
