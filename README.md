@@ -28,34 +28,11 @@ Gebruik [caniuse.com](https://caniuse.com), [html5test.com](https://html5test.co
 Nerdy T-Shirt
 
 
-## Werkwijze
+## wireflow
 
-Schets eerst een wireflow en/of breakdown-schets met hoe de demo moet gaan werken en hoe het eruit komt te zien. Bepaal de functional/reliable, usable en pleasurable laag.
-
-- Onderzoek voor de functional/reliable laag naar semantische HTML elementen
-- Kijk voor de usable laag naar gebruiksvriendelijkheid en design patterns die je zou kunnen toepassen
-- De meest 'enhanced' versie is super vet, gaaf en prettig om te gebruiken … Dit is de pleasurable laag.
-
-### Bronnen
-
-Hier staat een lijst [Browser Technolgies](https://platform.html5.org/) die je kan toepassen. Bekijk welke nieuwe, innovatieve, interessante techniek je kan gebruiken voor je ontwerp.
-
-Lees 
-[The Role of Enhancement in Web Design](https://www.nngroup.com/articles/enhancement/), een goed artikel over waarom een _feature_ een _enhancement_ is.
-
-Lees 
-[A Theory of User Delight: Why Usability Is the Foundation for Delightful Experiences](https://www.nngroup.com/articles/theory-user-delight/) voor een uitleg over Functional/Reliable, Usable, Pleasurable lagen en de piramide van Aarron Walter met _hierarchy of user needs_.
-
-Bekijk de [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/) als je wat tips nodig hebt voor het ontwerpen van een gebruiksvriendelijke interface. Probeer in ieder geval deze principes toe te passen in je ontwerp: 04 Keep users in control, 09 Appearance follows behavior, 10 Consistency matters, 11 Strong visual hierarchies work best.
-
-Lees [Wireflows: A UX Deliverable for Workflows and Apps](https://www.nngroup.com/articles/wireflows/) als je nog eens wil lezen over wirfelows. 
-
-De features waarop je moet testen komen uit [opdracht 2 - Breek het Web](https://github.com/cmda-minor-web/browser-technologies-2021/blob/master/course/Opdracht2.md), Afbeeldingen, Custom fonts, Kleur, Muis/Trackpad, Breedband internet, Javascript, Cookies, LocalStorage.
-
-
-
-
-
+[Home]
+[Bestelpagina]
+[Overzichtspagina]
 
 ## Criteria
 
@@ -79,21 +56,3 @@ Er is een Readme toegevoegd met daarin:
 	- welke functionaliteiten zoals JavaScript je aan en uit hebt gezet in de tests
 	- een beschrijving van de feature-lijst die zijn onderzocht
 	- een screenreader test
-
-
-
-
-
-<!--
-In welke browsers moet het doen? Welke devices krijg je voor de eindtest?
-PE voorbeelden laten zien, live coding (Koop)
-browser toewijzen, virtueel device lab 
-2 desktop browsers (chromium en een niet chromium) 2 mobiele browsers
-2 devices: ios device en android, of 2 androids samsung en een niet samsung
-Voorbeelden per opdracht Kahoot, scoring frisbee, chatten met mediamarkt
-
-MUIS
-TOETSENBORD
-TOUCH
-
--->
