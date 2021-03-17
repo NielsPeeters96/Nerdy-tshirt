@@ -25,9 +25,9 @@ Gebruik [caniuse.com](https://caniuse.com), [html5test.com](https://html5test.co
 
 ## wireflows
 
-[Home]"https://github.com/NielsPeeters96/Nerdy-tshirt/blob/master/docs/img/Home.jpg"
-[Bestelpagina]"https://github.com/NielsPeeters96/Nerdy-tshirt/blob/master/docs/img/Bestelpagina.jpg"
-[Overzichtspagina]"https://github.com/NielsPeeters96/Nerdy-tshirt/blob/master/docs/img/Overzichtspagina.jpg"
+![Frontend ]"https://github.com/NielsPeeters96/Nerdy-tshirt/blob/master/docs/img/Home.jpg"
+![Frontend ]"https://github.com/NielsPeeters96/Nerdy-tshirt/blob/master/docs/img/Bestelpagina.jpg"
+![Frontend ]"https://github.com/NielsPeeters96/Nerdy-tshirt/blob/master/docs/img/Overzichtspagina.jpg"
 
 ## Criteria
 
