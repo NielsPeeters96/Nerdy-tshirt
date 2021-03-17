@@ -33,12 +33,12 @@ Gebruik [caniuse.com](https://caniuse.com), [html5test.com](https://html5test.co
 
 ## Vereisten
 
-Gegevens maker (naam, telefoon of email)
-Kleur t-shirt
-Tekst t-shirt
-Maat t-shirt
-M/V
-Verder gaan waar je gebleven bent/ontwerp herzien
-Validatie: alles moet zijn ingevuld. Geef duidelijke foutmeldingen
-Gebruiker moet meerdere t-shirts kunnen maken en herzien, en moet dus een overzichtspagina hebben.
-Bestel pagina om een ontwerp kopen en laten maken
+- Gegevens maker (naam, telefoon of email)
+- Kleur t-shirt
+- Tekst t-shirt
+- Maat t-shirt
+- M/V
+- Verder gaan waar je gebleven bent/ontwerp herzien
+- Validatie: alles moet zijn ingevuld. Geef duidelijke foutmeldingen
+- Gebruiker moet meerdere t-shirts kunnen maken en herzien, en moet dus een overzichtspagina hebben.
+- Bestel pagina om een ontwerp kopen en laten maken
