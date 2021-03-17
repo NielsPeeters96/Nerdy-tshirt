@@ -25,7 +25,7 @@ Gebruik [caniuse.com](https://caniuse.com), [html5test.com](https://html5test.co
 
 
 ## Use Case
-[Nerdy T-Shirt](Usecase-t-nerdy-shirt.md)
+Nerdy T-Shirt
 
 
 ## Werkwijze
