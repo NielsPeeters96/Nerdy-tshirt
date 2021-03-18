@@ -1,0 +1,21 @@
+{
+  "name": "nerdy-tshirt",
+  "version": "1.0.0",
+  "description": "-",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "run": "nodemon app.js"
+  },
+  "author": "Niels Peeters",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NielsPeeters96/Nerdy-tshirt/issues"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2"
+  }
+}
