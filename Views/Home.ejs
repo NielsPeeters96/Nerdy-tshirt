@@ -1,1 +1,55 @@
 <%- include('./partials/head'); %>
+<section class="examples">
+
+
+
+    
+</section>
+
+
+
+
+<section class="form_color">
+    <form>
+        <h4>Color:</h4>
+        <fieldset>
+            <label for="color-black">Black</label>
+            <input type="radio" id="color-red" name="shirt-color" value="red" required />
+            <label for="color-white">White</label>
+            <input type="radio" id="color-white" name="shirt-color" value="white" required />
+            <label for="color-grey">Grey</label>
+            <input type="radio" id="color-grey" name="shirt-color" value="grey" required />
+            <label for="color-yellow">Yellow</label>
+            <input type="radio" id="color-yellow" name="shirt-color" value="yellow" required />
+        </fieldset>
+        
+        <h4>Size:</h4>
+        <fieldset>
+            <label for="xs">XS</label>
+            <input type="radio" id="xs" name="Size" value="xs" required />
+            <label for="s">S</label>
+            <input type="radio" id="s" name="Size" value="s" required />
+            <label for="m">M</label>
+            <input type="radio" id="m" name="Size" value="m" required />
+            <label for="l">L</label>
+            <input type="radio" id="l" name="Size" value="l" required />
+            <label for="xl">XL</label>
+            <input type="radio" id="xl" name="Size" value="xl" required />
+        </fieldset>
+        
+        <h4>Gender:</h4>
+        <fieldset>
+            <label for="man">Man</label>
+            <input type="radio" id="man" name="gender" value="man" required />
+            <label for="woman">Woman</label>
+            <input type="radio" id="woman" name="gender" value="woman" required />
+        </fieldset> 
+        
+        <h4>Click submit to add order to your bag</h4>
+        <fieldset>
+        <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</section>
+
+<%- include('./partials/footer'); %>
