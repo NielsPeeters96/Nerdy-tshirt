@@ -25,11 +25,11 @@ Gebruik [caniuse.com](https://caniuse.com), [html5test.com](https://html5test.co
 
 ## Wireflows
 
-![Frontend ](https://github.com/NielsPeeters96/Nerdy-tshirt/blob/master/docs/img/Home.jpg)
+![Frontend ](https://github.com/NielsPeeters96/Nerdy-tshirt/blob/master/Public/img/Home.jpg)
 
-![Frontend ](https://github.com/NielsPeeters96/Nerdy-tshirt/blob/master/docs/img/Bestelpagina.jpg)
+![Frontend ](https://github.com/NielsPeeters96/Nerdy-tshirt/blob/master/Public/img/Bestelpagina.jpg)
 
-![Frontend ](https://github.com/NielsPeeters96/Nerdy-tshirt/blob/master/docs/img/Overzichtspagina.jpg)
+![Frontend ](https://github.com/NielsPeeters96/Nerdy-tshirt/blob/master/Public/img/Overzichtspagina.jpg)
 
 ## Vereisten
 
