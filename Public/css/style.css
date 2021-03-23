@@ -15,6 +15,10 @@ body {
     justify-content: center;
 }
 
+.linkjes {
+  width: 100%;
+}
+
   @media screen and (max-width: 600px) {
     body, form, a {
       width: 100%;
