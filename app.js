@@ -24,4 +24,8 @@ app.get("/overzicht", (req, res) => {
   res.render("overzichtspagina.ejs");
 });
 
+app.get("/order", (req, res) => {
+  res.render("order.ejs");
+});
+
 app.listen(port, () => console.log(`App is running on port ${port}`));

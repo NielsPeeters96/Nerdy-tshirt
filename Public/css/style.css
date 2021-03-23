@@ -1,0 +1,33 @@
+:root {
+    --bgc: #264653;
+    --bgc-light: #2A9D8f;
+    --orange: #E76F51;
+    --orange-light: #F4A261;
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+}
+
+  @media screen and (max-width: 600px) {
+    body, form, a {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(153, 144, 144);
+    color: white;
+    text-align: center;
+  }
