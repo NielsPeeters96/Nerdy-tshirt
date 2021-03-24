@@ -35,6 +35,12 @@ Core functionaliteit is dat gebruikers een nerdy t-shirt kunnen samenstellen en 
 - T-shirt past zich aan op basis van geselecteerde opties
 - Formulier werkt als multi-step form
 
+## Browsers
+Google Chrome (macOS)
+Mozilla Firefox (macOS)
+Safari (iOS)
+Chrome (Android)
+
 ## Vereisten
 
 - Gegevens maker (naam, telefoon of email)
