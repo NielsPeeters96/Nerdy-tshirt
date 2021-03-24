@@ -1,33 +1,25 @@
 {
-  "name": "nerdy-tshirt",
+  "name": "pwa_npeeters",
   "version": "1.0.0",
   "description": "-",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "watch": "nodemon app.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NielsPeeters96/Nerdy-tshirt"
-  },
-  "author": "",
+  "author": "Niels Peeters",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/NielsPeeters96/Nerdy-tshirt/issues"
   },
-  "homepage": "https://github.com/NielsPeeters96/Nerdy-tshirt#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "gulp": "^4.0.2",
-    "gulp-concat": "^2.6.1",
     "node-fetch": "^2.6.1",
     "request": "^2.88.2"
   },
   "devDependencies": {
-    "chokidar-cli": "^2.1.0",
     "nodemon": "^2.0.7"
   }
 }
