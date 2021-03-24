@@ -1,31 +1,46 @@
-const express = require('express');
+import bodyParser from "body-parser";
+import express from "express";
+
+import fs from "fs";
+
 const app = express();
-const port = 4000;
+const port = process.env.PORT || 3000;
 
-// Using static files from static directory
-app.use(express.static('public'));
-app.use('/js', express.static(__dirname + 'public/js'));
-app.use('/img', express.static(__dirname + 'public/img'));
-app.use('/css', express.static(__dirname + 'public/css'));
+var urlencodedParser = bodyParser.urlencoded({ extended: false });
 
-// Setting views (EJS)
-app.set('views', './views');
-app.set('view engine', 'ejs');
+// static files
+app.use(express.static("public"));
 
-app.get('/', async (req, res) => {
-      res.render('home.ejs');
-    })
+// Set views
+app.set("views", "./views");
+app.set("view engine", "ejs");
 
-app.get('/bestelpagina', function (req, res) {
-    res.render('bestelpagina.ejs');
-  });
-
-app.get("/overzicht", (req, res) => {
-  res.render("overzichtspagina.ejs");
+// Routes
+app.get("/", (req, res) => {
+  res.render("home.ejs");
 });
 
-app.get("/order", (req, res) => {
-  res.render("order.ejs");
+app.get("/favorieten", (req, res) => {
+  res.render("favorieten.ejs");
 });
 
-app.listen(port, () => console.log(`App is running on port ${port}`));
+app.get("/bestellen", (req, res) => {
+  res.render("bestellen.ejs");
+});
+
+app.get("/winkelmand", (req, res) => {
+  res.render("winkelmand.ejs");
+});
+
+app.post("/winkelmand", urlencodedParser, (req, res) => {
+  const readableData = JSON.parse(fs.readFileSync("./data.json"));
+  readableData.data.push(req.body);
+
+  const stringData = JSON.stringify(readableData, null, 2);
+  fs.writeFileSync("data.json", stringData);
+  console.log(stringData);
+  res.render("winkelmand.ejs", { data: readableData });
+});
+
+// Start server
+app.listen(port, () => console.log("Listening to port " + port));
