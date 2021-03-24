@@ -25,7 +25,7 @@ Core functionaliteit is dat gebruikers een nerdy t-shirt kunnen samenstellen en 
 ### Functional
 - De HTML content is zichtbaar en werkend
 - Formulier is te gebruiken en te versturen
-- Code kan worden gebruikt om in te loggen en shirt aan te passen
+- Radio buttons worden aangepast en zijn vervolgens te zien in de data
 
 ### Usable
 - CSS zorgt voor verbetering van de app
@@ -33,7 +33,7 @@ Core functionaliteit is dat gebruikers een nerdy t-shirt kunnen samenstellen en 
 
 ### Pleasurable
 - T-shirt past zich aan op basis van geselecteerde opties
-- Formulier werkt als multi-step form
+- Favorieten worden toegevoegd aan Localstorage
 
 ## Browsers
 Google Chrome (macOS)
