@@ -42,4 +42,4 @@ app.post("/winkelmand", urlencodedParser, (req, res) => {
 });
 
 // Start server
-app.listen(PORT, () => console.log("Listening to port " + PORT));
+app.listen(port, () => console.log("Listening to port " + port));
