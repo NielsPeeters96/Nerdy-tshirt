@@ -4,56 +4,6 @@
       "shirtColor": "red",
       "gender": "man",
       "shirtSize": "xs"
-    },
-    {
-      "shirtColor": "zwart",
-      "shirtSize": "m",
-      "gender": "man"
-    },
-    {
-      "shirtColor": "zwart",
-      "shirtSize": "m",
-      "gender": "man"
-    },
-    {
-      "shirtColor": "zwart",
-      "shirtSize": "m",
-      "gender": "man"
-    },
-    {
-      "shirtColor": "zwart",
-      "shirtSize": "m",
-      "gender": "man"
-    },
-    {
-      "shirtColor": "zwart",
-      "shirtSize": "m",
-      "gender": "man"
-    },
-    {
-      "shirtColor": "zwart",
-      "shirtSize": "m",
-      "gender": "man"
-    },
-    {
-      "shirtColor": "zwart",
-      "shirtSize": "m",
-      "gender": "man"
-    },
-    {
-      "shirtColor": "zwart",
-      "shirtSize": "m",
-      "gender": "man"
-    },
-    {
-      "shirtColor": "zwart",
-      "shirtSize": "s",
-      "gender": "man"
-    },
-    {
-      "shirtColor": "zwart",
-      "shirtSize": "s",
-      "gender": "man"
     }
   ]
 }

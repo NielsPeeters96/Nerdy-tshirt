@@ -1,9 +1,8 @@
 {
-  "name": "progressive-web-apps-2021",
+  "name": "nerdy-tshirt",
   "version": "1.0.0",
   "description": "-",
   "main": "app.js",
-  "type": "module",
   "scripts": {
     "start": "node app.js",
     "watch": "nodemon app.js"
@@ -24,9 +23,11 @@
     "express": "^4.17.1",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2"
   },
   "devDependencies": {
-    "chokidar-cli": "^2.1.0"
+    "chokidar-cli": "^2.1.0",
+    "nodemon": "^2.0.7"
   }
 }
