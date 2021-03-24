@@ -4,6 +4,36 @@
       "shirtColor": "red",
       "gender": "man",
       "shirtSize": "xs"
+    },
+    {
+      "shirtColor": "wit",
+      "shirtSize": "m",
+      "gender": "woman"
+    },
+    {
+      "shirtColor": "wit",
+      "shirtSize": "m",
+      "gender": "woman"
+    },
+    {
+      "shirtColor": "wit",
+      "shirtSize": "m",
+      "gender": "woman"
+    },
+    {
+      "shirtColor": "wit",
+      "shirtSize": "m",
+      "gender": "woman"
+    },
+    {
+      "shirtColor": "wit",
+      "shirtSize": "m",
+      "gender": "woman"
+    },
+    {
+      "shirtColor": "wit",
+      "shirtSize": "m",
+      "gender": "woman"
     }
   ]
 }

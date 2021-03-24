@@ -8,12 +8,13 @@
         <path d="M255.948,117.297c41.233,0,74.647-33.422,74.647-74.647H181.294
     C181.294,83.875,214.716,117.297,255.948,117.297z" />
     </svg>
+    </figure>
     <form method="POST" action="/winkelmand">
         <h3>Maak je eigen Nerdy t-shirt!</h3>
         <h4>Kleur</h4>
         <fieldset>
             <label for="color-zwart">Zwart</label>
-            <input type="radio" id="color-red" name="shirtColor" value="zwart" required />
+            <input type="radio" id="color-zwart" name="shirtColor" value="zwart" required />
             <label for="color-wit">Wit</label>
             <input type="radio" id="color-wit" name="shirtColor" value="wit" required />
             <label for="color-blauw">Blauw</label>
@@ -45,11 +46,7 @@
         </fieldset> 
         
         <h4>Bestelling toevoegen aan je winkelmand</h4>
-        <fieldset>
         <a href="/bestelpagina.ejs">
         <button type="submit">Toevoegen</button>
         </a>
-        </fieldset>
     </form>
-
-<%- include('./partials/footer'); %>

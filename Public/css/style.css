@@ -13,10 +13,71 @@
 body {
     display: grid;
     justify-content: center;
+    color:#db722c;
+    font-family: sans-serif;
+    letter-spacing: 0.05em;
 }
 
 .linkjes {
   width: 100%;
+}
+
+form {
+  top: 60%;
+  left: 50%;
+  width: 100%;
+  background: rgba(0,0,0,0.8);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.shirt {
+  
+}
+
+.shoppinglist {
+  padding: 3rem;
+  width: 100%;
+}
+
+.winkelmand-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 1rem 3rem;
+  margin-bottom: 2rem;
+}
+
+.order {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+}
+
+.order a {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 1rem 2rem;
+  color: black;
+  transition: 0.3s;
+}
+.order a:hover,
+.order a:focus {
+  background: rgb(231, 131, 49);
+  color: #fff;
+}
+
+button {
+  background: #39b7dd;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
 }
 
   @media screen and (max-width: 600px) {
@@ -24,14 +85,4 @@ body {
       width: 100%;
       margin-top: 0;
     }
-  }
-
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(153, 144, 144);
-    color: white;
-    text-align: center;
   }

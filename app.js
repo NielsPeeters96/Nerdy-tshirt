@@ -38,7 +38,6 @@ app.post("/winkelmand", urlencodedParser, (req, res) => {
 
   const stringData = JSON.stringify(readableData, null, 2);
   fs.writeFileSync("data.json", stringData);
-  console.log(stringData);
   res.render("winkelmand.ejs", { data: readableData });
 });
 
