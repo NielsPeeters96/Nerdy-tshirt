@@ -2,8 +2,6 @@
 
 Voor deze opdracht ga je een interactieve toepassing ontwerpen. Zorg dat alle gebruikers, met alle browsers, in iedere context minimaal de core functionaliteit te zien, horen en/of voelen krijgen.
 
-
-
 ## Doel van deze opdracht
 
 Het doel van deze opdracht is te leren hoe je een online interactieve toepassing kan maken met behulp van _Progressive Enhancement_ en _Feature Detection_ zodat die het altijd doet ...
@@ -12,16 +10,7 @@ Het doel van deze opdracht is te leren hoe je een online interactieve toepassing
 
 ## Uitleg
 
-Maak een demo op basis van een use case. Zorg dat alle gebruikers, met alle browsers, in iedere context minimaal de _core functionaliteit_ te zien/horen/voelen krijgen en maximaal een hele goede user experience.
-
-Bouw je demo in 3 lagen, volgens het principe van _Progressive Enhancement_.
-
-Gebruik als enhancement een [Browser Technologie](https://platform.html5.org) die je gaat onderzoeken op functionaliteit, toegankelijkheid en (browser) ondersteuning.
-Je onderzoekt hoe je verschillende _features_ door verschillende browsers worden ondersteund, hoe je voor goede fallback kan zorgen en je test de _features_ op verschillende browsers <del>en het Device Lab</del>.
-
-Polyfills en NPM packages op de client zijn niet toegestaan, op de server kun je doen wat je wil. Wat voor deze opdracht telt, is de HTML/CSS/JavaScript die aan de browser wordt aangeleverd.
-
-Gebruik [caniuse.com](https://caniuse.com), [html5test.com](https://html5test.com), [css3test.com](http://css3test.com) en [kangax.github.io/compat-table/es6/](https://kangax.github.io/compat-table/es6/)
+Core functionaliteit is dat gebruikers een nerdy t-shirt kunnen samenstellen en deze vervolgens kunnen bestellen en/of opslaan bij hun favorieten. Dit moet ten alle tijden werken ook wanneer javascript en css uitstaat.
 
 ## Wireflows
 
@@ -30,6 +19,9 @@ Gebruik [caniuse.com](https://caniuse.com), [html5test.com](https://html5test.co
 ![Frontend ](https://github.com/NielsPeeters96/Nerdy-tshirt/blob/master/Public/img/Bestelpagina.jpg)
 
 ![Frontend ](https://github.com/NielsPeeters96/Nerdy-tshirt/blob/master/Public/img/Overzichtspagina.jpg)
+
+## Lagen
+
 
 ## Vereisten
 
