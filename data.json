@@ -6,54 +6,59 @@
       "shirtSize": "xs"
     },
     {
-      "shirtColor": "wit",
-      "shirtSize": "m",
-      "gender": "woman"
-    },
-    {
-      "shirtColor": "wit",
-      "shirtSize": "m",
-      "gender": "woman"
-    },
-    {
-      "shirtColor": "wit",
-      "shirtSize": "m",
-      "gender": "woman"
-    },
-    {
-      "shirtColor": "wit",
-      "shirtSize": "m",
-      "gender": "woman"
-    },
-    {
-      "shirtColor": "wit",
-      "shirtSize": "m",
-      "gender": "woman"
-    },
-    {
-      "shirtColor": "wit",
-      "shirtSize": "m",
-      "gender": "woman"
-    },
-    {
-      "shirtColor": "wit",
+      "shirtColor": "white",
       "shirtSize": "m",
       "gender": "man"
     },
     {
-      "shirtColor": "zwart",
-      "shirtSize": "xs",
+      "shirtColor": "white",
+      "shirtSize": "m",
       "gender": "man"
     },
     {
-      "shirtColor": "zwart",
+      "shirtColor": "white",
+      "shirtSize": "m",
+      "gender": "woman"
+    },
+    {
+      "shirtColor": "yellow",
+      "shirtSize": "m",
+      "gender": "man"
+    },
+    {
+      "shirtColor": "white",
+      "shirtSize": "m",
+      "gender": "man"
+    },
+    {
+      "shirtColor": "black",
+      "shirtSize": "l",
+      "gender": "man"
+    },
+    {
+      "shirtColor": "black",
       "shirtSize": "xs",
       "gender": "woman"
     },
     {
-      "shirtColor": "zwart",
-      "shirtSize": "xs",
-      "gender": "woman"
+      "shirtColor": "white",
+      "shirtSize": "s",
+      "gender": "man"
+    },
+    {
+      "shirtColor": "blue",
+      "shirtSize": "m",
+      "gender": "man"
+    },
+    {
+      "shirtColor": "black",
+      "shirtSize": "m",
+      "gender": "man"
+    },
+    {
+      "shirtColor": "white",
+      "shirtSize": "m",
+      "gender": "man"
     }
   ]
 }

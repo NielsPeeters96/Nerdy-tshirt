@@ -14,8 +14,10 @@ body {
     display: grid;
     justify-content: center;
     color:#db722c;
-    font-family: sans-serif;
+    font-family: "raleway";
     letter-spacing: 0.05em;
+    background-color: bisque;
+    opacity: 0.9;
 }
 
 .linkjes {
@@ -50,6 +52,15 @@ form {
   margin-bottom: 2rem;
 }
 
+.winkelmand-container svg {
+  width: 100%;
+}
+
+.winkelmand-container div {
+  width: 100%;
+  text-align: right;
+}
+
 .order {
   width: 100%;
   display: flex;
@@ -70,14 +81,20 @@ form {
   color: #fff;
 }
 
-button {
-  background: #39b7dd;
-  text-align: center;
-  padding: 15px;
-  border-radius: 5px;
+button:hover,
+button:focus {
+  background: rgb(231, 131, 49);
   color: #fff;
-  cursor: pointer;
+}
+
+button {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 1rem 2rem;
+  color: rgb(231, 131, 49);
   text-transform: uppercase;
+  font-weight: 800;
+  font-family: raleway;
 }
 
   @media screen and (max-width: 600px) {

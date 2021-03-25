@@ -1,19 +1,25 @@
 <%- include('./partials/head'); %>
 <figure class="t-shirt">
-    <svg xmlns="http://www.w3.org/2000/svg" 
-         viewBox="0 0 511.882 511.882">
-        <polygon id="changeColor"    
-        stroke="black"
-        points="362.587,42.65 149.301,42.65 0,127.959 42.662,245.268 106.647,223.937 106.647,469.232 
-    405.25,469.232 405.25,223.937 469.236,245.268 511.882,127.959 " >
-    <g
-        transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
-    >
-    <path d="M255.948,117.297c41.233,0,74.647-33.422,74.647-74.647H181.294
-    C181.294,83.875,214.716,117.297,255.948,117.297z" />
-    </g>
-    </svg>
-    </figure>
+    <% data.data.forEach((key) => { %>
+        <article class="winkelmand-container">
+          <svg xmlns="http://www.w3.org/2000/svg" 
+          viewBox="0 0 511.882 511.882">
+         <polygon id="changeColor"
+         fill="<%= key.shirtColor %>"    
+         stroke="black"
+         points="362.587,42.65 149.301,42.65 0,127.959 42.662,245.268 106.647,223.937 106.647,469.232 
+     405.25,469.232 405.25,223.937 469.236,245.268 511.882,127.959 " >
+     <g
+         transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
+     >
+     <path d="M255.948,117.297c41.233,0,74.647-33.422,74.647-74.647H181.294
+     C181.294,83.875,214.716,117.297,255.948,117.297z" />
+     </g>
+     </svg>
+          </div>
+        </article>
+        <% }) %>
+    
     <form method="POST" action="/winkelmand">
         <h3>Maak je eigen Nerdy t-shirt!</h3>
         <h4>Kleur</h4>
@@ -52,5 +58,6 @@
         
         <h4>Bestelling toevoegen aan je winkelmand</h4>
         <button type="submit">Toevoegen</button>
-        <button onclick="window.location.href='/refresh'">Refresh</button>
+        </a>
+        <a href="/refresh">Refresh</a>
     </form>

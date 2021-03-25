@@ -20,12 +20,12 @@ app.get("/", (req, res) => {
   res.render("home.ejs");
 });
 
-app.get("/favorieten", (req, res) => {
-  res.render("favorieten.ejs");
-});
-
 app.get("/bestellen", (req, res) => {
   res.render("bestellen.ejs");
+});
+
+app.get("/refresh", (req, res) => {
+  res.render("refresh.ejs");
 });
 
 app.get("/winkelmand", (req, res) => {
