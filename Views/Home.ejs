@@ -2,13 +2,13 @@
 <figure class="t-shirt">
     <svg xmlns="http://www.w3.org/2000/svg" 
          viewBox="0 0 511.882 511.882">
-        <polygon points="362.587,42.65 149.301,42.65 0,127.959 42.662,245.268 106.647,223.937 106.647,469.232 
+        <polygon id="changeColor"    
+        stroke="black" 
+        points="362.587,42.65 149.301,42.65 0,127.959 42.662,245.268 106.647,223.937 106.647,469.232 
     405.25,469.232 405.25,223.937 469.236,245.268 511.882,127.959 " >
     >
     <g
         transform="translate(0.000000,1280.000000) scale(0.100000,-0.100000)"
-        fill="#000000"
-        stroke="black"
     >
     <path d="M255.948,117.297c41.233,0,74.647-33.422,74.647-74.647H181.294
     C181.294,83.875,214.716,117.297,255.948,117.297z" />
@@ -18,15 +18,15 @@
     <form method="POST" action="/winkelmand">
         <h3>Maak je eigen Nerdy t-shirt!</h3>
         <h4>Kleur</h4>
-        <fieldset>
+        <fieldset id="kleur">
             <label for="color-zwart">Zwart</label>
-            <input type="radio" id="color-zwart" name="shirtColor" value="zwart" required />
+            <input type="radio" id="color-zwart" name="shirtColor" value="black" required checked />
             <label for="color-wit">Wit</label>
-            <input type="radio" id="color-wit" name="shirtColor" value="wit" required />
+            <input type="radio" id="color-wit" name="shirtColor" value="white" required />
             <label for="color-blauw">Blauw</label>
-            <input type="radio" id="color-blauw" name="shirtColor" value="blauw" required />
+            <input type="radio" id="color-blauw" name="shirtColor" value="blue" required />
             <label for="color-geel">Geel</label>
-            <input type="radio" id="color-geel" name="shirtColor" value="geel" required />
+            <input type="radio" id="color-geel" name="shirtColor" value="yellow" required />
         </fieldset>
         
         <h4>Maat</h4>
