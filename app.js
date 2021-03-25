@@ -23,12 +23,12 @@ app.get("/", (req, res) => {
 app.post("/", urlencodedParser, (req, res) => {
   const readableData = JSON.parse(fs.readFileSync("./dataColor.json"));
   console.log(req.body);
-  // readableData.data.push(req.body);
-  // console.log(readableData);
+  readableData.data.push(req.body);
+  console.log(readableData);
 
-  // const stringData = JSON.stringify(readableData, null, 2);
-  // fs.writeFileSync("dataColor.json", stringData);
-  // res.render("home.ejs", { data: readableData });
+  const stringData = JSON.stringify(readableData, null, 2);
+  fs.writeFileSync("dataColor.json", stringData);
+  res.render("home.ejs", { data: readableData });
 });
 
 app.get("/bestellen", (req, res) => {

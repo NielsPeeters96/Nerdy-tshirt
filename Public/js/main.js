@@ -22,7 +22,7 @@ function storeColor() {
 }
 
 function getColor(){
-  
+  localStorage.getItem("chosen")
 }
 
 storeColor();
