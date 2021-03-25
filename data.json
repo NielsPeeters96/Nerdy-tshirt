@@ -39,6 +39,21 @@
       "shirtColor": "wit",
       "shirtSize": "m",
       "gender": "man"
+    },
+    {
+      "shirtColor": "zwart",
+      "shirtSize": "xs",
+      "gender": "man"
+    },
+    {
+      "shirtColor": "zwart",
+      "shirtSize": "xs",
+      "gender": "woman"
+    },
+    {
+      "shirtColor": "zwart",
+      "shirtSize": "xs",
+      "gender": "woman"
     }
   ]
 }
