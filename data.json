@@ -59,6 +59,26 @@
       "shirtColor": "white",
       "shirtSize": "m",
       "gender": "man"
+    },
+    {
+      "shirtColor": "blue",
+      "shirtSize": "xl",
+      "gender": "man"
+    },
+    {
+      "shirtColor": "blue",
+      "shirtSize": "l",
+      "gender": "man"
+    },
+    {
+      "shirtColor": "blue",
+      "shirtSize": "m",
+      "gender": "woman"
+    },
+    {
+      "shirtColor": "white",
+      "shirtSize": "m",
+      "gender": "man"
     }
   ]
 }

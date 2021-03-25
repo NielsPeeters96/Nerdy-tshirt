@@ -20,12 +20,19 @@ app.get("/", (req, res) => {
   res.render("home.ejs");
 });
 
-app.get("/bestellen", (req, res) => {
-  res.render("bestellen.ejs");
+app.post("/", urlencodedParser, (req, res) => {
+  const readableData = JSON.parse(fs.readFileSync("./dataColor.json"));
+  console.log(req.body);
+  // readableData.data.push(req.body);
+  // console.log(readableData);
+
+  // const stringData = JSON.stringify(readableData, null, 2);
+  // fs.writeFileSync("dataColor.json", stringData);
+  // res.render("home.ejs", { data: readableData });
 });
 
-app.get("/refresh", (req, res) => {
-  res.render("refresh.ejs");
+app.get("/bestellen", (req, res) => {
+  res.render("bestellen.ejs");
 });
 
 app.get("/winkelmand", (req, res) => {
