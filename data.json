@@ -79,6 +79,11 @@
       "shirtColor": "white",
       "shirtSize": "m",
       "gender": "man"
+    },
+    {
+      "shirtColor": "blue",
+      "shirtSize": "s",
+      "gender": "woman"
     }
   ]
 }
