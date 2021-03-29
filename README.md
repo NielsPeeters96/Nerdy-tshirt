@@ -25,7 +25,9 @@ Core functionaliteit is dat gebruikers een nerdy t-shirt kunnen samenstellen en 
 ### Functional
 - De HTML content is zichtbaar en werkend
 - Formulier is te gebruiken en te versturen
-- Radio buttons worden aangepast en zijn vervolgens te zien in de data
+- Radio buttons worden aangepast en staan in de URL
+- Kleur kan worden aangepast met de button
+- Shirt is te delen via de URL, hiermee krijgt de bezoeker precies hetzelfde shirt te zien
 
 ### Usable
 - CSS zorgt voor verbetering van de app
@@ -33,7 +35,7 @@ Core functionaliteit is dat gebruikers een nerdy t-shirt kunnen samenstellen en 
 
 ### Pleasurable
 - T-shirt past zich aan op basis van geselecteerde opties
-- Favorieten worden toegevoegd aan Localstorage
+- Het formulier wordt opgeslagen in localstorage
 
 ## Browsers
 Google Chrome (macOS)
@@ -52,3 +54,9 @@ Chrome (Android)
 - Validatie: alles moet zijn ingevuld. Geef duidelijke foutmeldingen
 - Gebruiker moet meerdere t-shirts kunnen maken en herzien, en moet dus een overzichtspagina hebben.
 - Bestel pagina om een ontwerp kopen en laten maken
+
+## Uitbreidingen
+- History.pushState toevoegen, hier had ik helaas te weinig tijd voor maar wel onderzoek naar gedaan. Deze API had ik nog kunnen toevoegen om ook met javascript aan de URL te delen met anderen, zodat de query ziet welke values er in het formulier staan.
+
+![image](https://user-images.githubusercontent.com/78353674/112846184-0fdc5180-90a6-11eb-8bab-41d7228b0256.png)
+
