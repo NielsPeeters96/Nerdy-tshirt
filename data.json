@@ -4,6 +4,12 @@
       "shirtColor": "red",
       "gender": "man",
       "shirtSize": "xs"
+    },
+    {
+      "shirtColor": "blue",
+      "shirtSize": "m",
+      "gender": "man",
+      "verstuur": ""
     }
   ]
 }

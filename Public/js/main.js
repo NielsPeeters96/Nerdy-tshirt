@@ -5,6 +5,7 @@ const radioMaat = fieldsetMaat.querySelectorAll('input[type=radio]');
 const fieldsetGeslacht = document.getElementById("geslacht");
 const radioGeslacht = fieldsetGeslacht.querySelectorAll('input[type=radio]');
 
+document.getElementById("buttonKleur").style.display='none';
 
 radioKleur.forEach((radiobutton) =>{ 
   radiobutton.addEventListener("change", (event) => {
@@ -47,6 +48,7 @@ function getColor(){
   const dataGeslacht = localStorage.getItem("geslacht")
 
 radioKleur.forEach((radiobutton) => {  
+  console.log('test');
   if (radiobutton.value === dataKleur) {
     radiobutton.checked = true
     changeColor(dataKleur)
@@ -64,8 +66,5 @@ radioGeslacht.forEach((radiobutton) => {
 })
 }
 
-window.onload=function(){
-  document.getElementById("buttonKleur").style.display='none';
-}
-
 storeColor();
+
