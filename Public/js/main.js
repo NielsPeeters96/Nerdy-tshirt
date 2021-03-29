@@ -64,4 +64,8 @@ radioGeslacht.forEach((radiobutton) => {
 })
 }
 
+window.onload=function(){
+  document.getElementById("buttonKleur").style.display='none';
+}
+
 storeColor();

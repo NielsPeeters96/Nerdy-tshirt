@@ -17,7 +17,7 @@ app.set("view engine", "ejs");
 
 // Routes
 app.get("/", (req, res) => {
-  res.render("home.ejs");
+  res.render("home.ejs", {formData:req.query});
 });
 
 app.post("/", urlencodedParser, (req, res) => {
@@ -40,12 +40,16 @@ app.get("/winkelmand", (req, res) => {
 });
 
 app.post("/winkelmand", urlencodedParser, (req, res) => {
-  const readableData = JSON.parse(fs.readFileSync("./data.json"));
-  readableData.data.push(req.body);
-
-  const stringData = JSON.stringify(readableData, null, 2);
-  fs.writeFileSync("data.json", stringData);
-  res.render("winkelmand.ejs", { data: readableData });
+  if (req.body.kleur) {
+    res.redirect(`/?shirtColor=${req.body.shirtColor}&gender=${req.body.gender}&shirtSize=${req.body.shirtSize}`);
+  }
+  else {
+    const readableData = JSON.parse(fs.readFileSync("./data.json"));
+    readableData.data.push(req.body);
+    const stringData = JSON.stringify(readableData, null, 2);
+    fs.writeFileSync("data.json", stringData);
+    res.render("winkelmand.ejs", { data: readableData });
+  }
 });
 
 // Start server
