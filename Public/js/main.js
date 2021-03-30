@@ -23,16 +23,19 @@ function storeColor() {
   radioKleur.forEach((radiobutton) =>{ 
     radiobutton.addEventListener("change", (event) => {
       localStorage.setItem("kleur", event.target.value)
+      history.pushState(null, 'Nerdy T-shirts', `/?shirtColor=${event.target.value}&shirtSize=${localStorage.getItem('maat')}&gender=${localStorage.getItem('geslacht')}`)
     })
   })
   radioMaat.forEach((radiobutton) =>{ 
     radiobutton.addEventListener("change", (event) => {
       localStorage.setItem("maat", event.target.value)
+      history.pushState(null, 'Nerdy T-shirts', `/?shirtSize=${event.target.value}&shirtColor=${localStorage.getItem('kleur')}&gender=${localStorage.getItem('geslacht')}`)
 })
 })
 radioGeslacht.forEach((radiobutton) =>{ 
   radiobutton.addEventListener("change", (event) => {
     localStorage.setItem("geslacht", event.target.value)
+    history.pushState(null, 'Nerdy T-shirts', `/?gender=${event.target.value}&shirtColor=${localStorage.getItem('kleur')}&shirtSize=${localStorage.getItem('maat')}`)
 })
 })
 }
@@ -40,28 +43,35 @@ radioGeslacht.forEach((radiobutton) =>{
 window.onload = () => getColor()
 
 function getColor(){
-  localStorage.getItem("kleur")
+  const url = new URL(window.location.href)
+  const queries = url.searchParams
   const dataKleur = localStorage.getItem("kleur")
-  localStorage.getItem("maat")
   const dataMaat = localStorage.getItem("maat")
-  localStorage.getItem("geslacht")
   const dataGeslacht = localStorage.getItem("geslacht")
 
 radioKleur.forEach((radiobutton) => {  
-  console.log('test');
-  if (radiobutton.value === dataKleur) {
+  if (radiobutton.value === dataKleur && queries.get('shirtColor')) {
     radiobutton.checked = true
     changeColor(dataKleur)
   }
+  else if (!queries.get('shirtColor')) {
+    localStorage.removeItem('kleur')
+  }
 })
 radioMaat.forEach((radiobutton) => {  
-  if (radiobutton.value === dataMaat) {
+  if (radiobutton.value === dataMaat && queries.get('shirtSize')) {
     radiobutton.checked = true
+  }
+  else if (!queries.get('shirtSize')) {
+    localStorage.removeItem('maat')
   }
 })
 radioGeslacht.forEach((radiobutton) => {  
-  if (radiobutton.value === dataGeslacht) {
+  if (radiobutton.value === dataGeslacht && queries.get('gender')) {
     radiobutton.checked = true
+  }
+  else if (!queries.get('gender')) {
+    localStorage.removeItem('geslacht')
   }
 })
 }
