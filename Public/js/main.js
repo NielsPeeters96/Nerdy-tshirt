@@ -76,16 +76,5 @@ radioGeslacht.forEach((radiobutton) => {
 })
 }
 
-function updateText(event) {
-  if ('URLSearchParams' in window) {
-    // Set shirt text
-    const shirtText = document.getElementById('shirt-text');
-    shirtText.innerHTML = event.value;
-
-    updateQueryValue('text', event.value)
-  }
-}
-
 storeColor();
-updateText();
 
