@@ -10,6 +10,18 @@
       "shirtSize": "m",
       "gender": "man",
       "verstuur": ""
+    },
+    {
+      "shirtColor": "blue",
+      "shirtSize": "m",
+      "gender": "man",
+      "verstuur": ""
+    },
+    {
+      "shirtColor": "blue",
+      "shirtSize": "s",
+      "gender": "woman",
+      "verstuur": ""
     }
   ]
 }
