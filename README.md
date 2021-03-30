@@ -55,8 +55,16 @@ Chrome (Android)
 - Gebruiker moet meerdere t-shirts kunnen maken en herzien, en moet dus een overzichtspagina hebben.
 - Bestel pagina om een ontwerp kopen en laten maken
 
-## Uitbreidingen
-- History.pushState toevoegen, hier had ik helaas te weinig tijd voor maar wel onderzoek naar gedaan. Deze API had ik nog kunnen toevoegen om ook met javascript aan de URL te delen met anderen, zodat de query ziet welke values er in het formulier staan.
+## Progressive Enhancements
+
+- history.Pushstate
+Gebruik ik om de URL te veranderen naar een deelbare link, zodat je je t-shirt kan delen met anderen die dan op dezelfde pagina uitkomen.
 
 ![image](https://user-images.githubusercontent.com/78353674/112846184-0fdc5180-90a6-11eb-8bab-41d7228b0256.png)
+
+- Localstorage
+Heb ik gebruikt, om het formulier op te slaan wanneer je de website ververst. De bolletjes die voorheen waren aangekruist blijven aangekruist als je de pagina vernieuwd.
+
+- T-shirt inkleuren
+Met zowel EJS als Javascript gedaan. Met Javascript wordt het t-shirt vanzelf ingekleurd en hoef je de pagina niet te verversen. Wanneer Javascript uitstaat komt er een knop waarmee je de kleur kan veranderen.
 
