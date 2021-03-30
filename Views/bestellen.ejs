@@ -1,30 +1,31 @@
 <%- include('./partials/head'); %>
 <body>
     <h1>Checkout</h1>
-    <form>
+    <form id="bestelForm" method="POST" action="/home">
         <h4>Naam</h4>
-        <fieldset>
+        <fieldset id ="naamForm">
             <input type="text" id="name" required />
         </fieldset>
         
         <h4>Postcode</h4>
-        <fieldset>
+        <fieldset id ="postcodeForm">
             <input type="text" id="postalcode" required />
         </fieldset>
         
         <h4>Adres</h4>
-        <fieldset>
+        <fieldset id ="adresForm">
             <input type="text" id="adress" required />
         </fieldset> 
 
         <h4>Mobiel</h4>
-        <fieldset>
+        <fieldset id ="mobielForm">
             <input type="number" id="mobile" required />
         </fieldset> 
         
         <h4>Klik hier om je bestelling af te ronden</h4>
         <fieldset>
-            <button onclick="window.location.href='/'">Afronden</button>
+            <button type="submit" name="afronden">afronden</button>
         </fieldset>
+        <p id="error"></p>
     </form>
 </body>
