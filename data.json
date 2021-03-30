@@ -4,6 +4,13 @@
       "shirtColor": "red",
       "gender": "man",
       "shirtSize": "xs"
+    },
+    {
+      "shirtColor": "yellow",
+      "shirtSize": "l",
+      "gender": "woman",
+      "shirttekst": "Niels",
+      "verstuur": ""
     }
   ]
 }
