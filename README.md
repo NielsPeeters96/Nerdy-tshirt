@@ -40,7 +40,7 @@ Core functionaliteit is dat gebruikers een nerdy t-shirt kunnen samenstellen en 
 ## Browsers
 Google Chrome
 
-Mozilla Firefox
+Opera
 
 Safari
 
