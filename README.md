@@ -38,10 +38,13 @@ Core functionaliteit is dat gebruikers een nerdy t-shirt kunnen samenstellen en 
 - Het formulier wordt opgeslagen in localstorage
 
 ## Browsers
-Google Chrome (macOS)
-Mozilla Firefox (macOS)
-Safari (iOS)
-Chrome (Android)
+Google Chrome
+
+Opera
+
+Safari
+
+Edge
 
 ## Vereisten
 
