@@ -53,15 +53,11 @@
             <label for="woman">Vrouw</label>
         </fieldset> 
 
-        <h4>'Eigen tekst'</h4>
-        <fieldset class="text-fieldset">
-          <input
-            type="text"
-            id="userText"
-            name="userText"
-            maxlength="6"
-            placeholder="Maximaal 6 karakters" />
-        </fieldset>
+        <fieldset>
+            <legend>Text:</legend>
+            <input type="text" name="text" placeholder="Zet je tekst hier"
+              maxlength="20" oninput="updateText(this)">
+          </fieldset>
         
         <h4>Bestelling toevoegen aan je winkelmand</h4>
         <button type="submit" name="verstuur">Toevoegen</button>

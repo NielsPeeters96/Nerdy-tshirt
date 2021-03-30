@@ -34,8 +34,13 @@ form {
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
-.shirt {
-  
+input[type="text"] {
+  color: var(--color-black);
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background-color: var(--color-white);
+  border: 0;
+  width: 100%;
 }
 
 .shoppinglist {
