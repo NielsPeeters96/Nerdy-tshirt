@@ -66,10 +66,12 @@ Gebruik ik om de URL te veranderen naar een deelbare link, zodat je je t-shirt k
 ### Localstorage
 
 ![image](https://user-images.githubusercontent.com/78353674/112964126-52ef0100-9148-11eb-9c33-7fdead1c3813.png)
+
 Heb ik gebruikt, om het formulier op te slaan wanneer je de website ververst. De bolletjes die voorheen waren aangekruist blijven aangekruist als je de pagina vernieuwd.
 
 ### T-shirt inkleuren
 
 ![image](https://user-images.githubusercontent.com/78353674/112964043-3f439a80-9148-11eb-8205-9ca3d62d82df.png)
+
 Met zowel EJS als Javascript gedaan. Met Javascript wordt het t-shirt vanzelf ingekleurd en hoef je de pagina niet te verversen. Wanneer Javascript uitstaat komt er een knop waarmee je de kleur kan veranderen.
 
