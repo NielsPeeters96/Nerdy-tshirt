@@ -78,3 +78,6 @@ Heb ik gebruikt, om het formulier op te slaan wanneer je de website ververst. De
 
 Met zowel EJS als Javascript gedaan. Met Javascript wordt het t-shirt vanzelf ingekleurd en hoef je de pagina niet te verversen. Wanneer Javascript uitstaat komt er een knop waarmee je de kleur kan veranderen.
 
+### Tekst toevoegen (vergeten)
+
+Dit was een vereiste die bij de opdracht hoort. In de applicatie heb ik deze nu toegevoegd en werkt geleidelijk met het t-shirt.
