@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
   res.render("home.ejs", {formData:req.query});
 });
 
-app.post("/home", (req, res) => {
+app.post("/bestellen", (req, res) => {
   res.render("home.ejs", {formData:req.query});
 });
 
