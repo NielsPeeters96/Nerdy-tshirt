@@ -34,8 +34,24 @@ form {
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
-.shirt {
+.t-shirt {
+  position: relative;
+}
+
+.t-shirt #tekstTshirt {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 7.5rem;
+    font-size: 4rem;
+    font-weight: 800;
+    color: black;
+    -webkit-text-stroke: 0.4px white;
+  }
   
+#errorMsg {
+  max-width: 13rem;
 }
 
 .shoppinglist {

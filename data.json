@@ -6,100 +6,52 @@
       "shirtSize": "xs"
     },
     {
-      "shirtColor": "blue",
+      "shirtColor": "black",
       "shirtSize": "m",
+      "gender": "woman",
+      "userText": "sdafs",
+      "verstuur": ""
+    },
+    {
+      "shirtColor": "black",
+      "shirtSize": "s",
       "gender": "man",
+      "userText": "safsd",
       "verstuur": ""
     },
     {
-      "shirtColor": "blue",
-      "shirtSize": "m",
+      "shirtColor": "black",
+      "shirtSize": "s",
       "gender": "man",
-      "verstuur": ""
-    },
-    {
-      "shirtColor": "blue",
-      "shirtSize": "s",
-      "gender": "woman",
+      "userText": "safsd",
       "verstuur": ""
     },
     {
       "shirtColor": "black",
       "shirtSize": "s",
-      "gender": "woman",
-      "verstuur": ""
-    },
-    {
-      "shirtColor": "black",
-      "shirtSize": "s",
-      "gender": "woman",
-      "verstuur": ""
-    },
-    {
-      "shirtColor": "black",
-      "shirtSize": "s",
-      "gender": "woman",
-      "verstuur": ""
-    },
-    {
-      "shirtColor": "black",
-      "shirtSize": "s",
-      "gender": "woman",
+      "gender": "man",
+      "userText": "safsd",
       "verstuur": ""
     },
     {
       "shirtColor": "black",
       "shirtSize": "m",
       "gender": "woman",
+      "userText": "toevoe",
       "verstuur": ""
     },
     {
       "shirtColor": "black",
       "shirtSize": "m",
-      "gender": "woman",
-      "verstuur": ""
-    },
-    {
-      "shirtColor": "blue",
-      "shirtSize": "xl",
-      "gender": "woman",
-      "verstuur": ""
-    },
-    {
-      "shirtColor": "blue",
-      "shirtSize": "l",
       "gender": "man",
+      "userText": "sdfa",
       "verstuur": ""
     },
     {
-      "shirtColor": "black",
+      "shirtColor": "white",
       "shirtSize": "s",
       "gender": "woman",
-      "verstuur": ""
-    },
-    {
-      "shirtColor": "black",
-      "shirtSize": "m",
-      "gender": "man",
-      "verstuur": ""
-    },
-    {
-      "shirtColor": "yellow",
-      "shirtSize": "l",
-      "gender": "man",
-      "verstuur": ""
-    },
-    {
-      "shirtColor": "blue",
-      "shirtSize": "s",
-      "gender": "woman",
-      "verstuur": ""
-    },
-    {
-      "shirtColor": "yellow",
-      "shirtSize": "m",
-      "gender": "man",
-      "userText": "sfad",
+      "userText": "fdsafs",
       "verstuur": ""
     }
   ]

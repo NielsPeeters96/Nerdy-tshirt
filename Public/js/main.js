@@ -1,3 +1,44 @@
+function formValidation() {
+  const form = document.getElementById("bestelForm");
+  const naamForm = document.querySelector("#naamForm input");
+  const postcodeForm = document.querySelector("#postcodeForm input");
+  const adresForm = document.querySelector("#adresForm input");
+  const mobielForm = document.querySelector("#mobielForm input");
+  const errorElement = document.getElementById("errorMsg");
+
+  // if javascript is enabled remove required attributes
+  
+    naamForm.required = false
+    postcodeForm.required = false
+    adresForm.required = false
+    mobielForm.required = false
+
+  // all inputs aren't checked, these messages gets pushed into an array
+  form.addEventListener("submit", (e) => {
+    let messages = []
+    if (naamForm.value.length <= 0) {
+      messages.push('Naam niet ingevuld')
+    }
+    if (postcodeForm.value.length <= 0) {
+      messages.push('Postcode niet ingevuld')
+    }
+    if (adresForm.value.length <= 0) {
+      messages.push('Adres niet ingevuld')
+    }
+    if (mobielForm.value.length <= 0) {
+      messages.push('Mobiel niet ingevuld')
+    }
+
+    // if this array is not empty prevent submit and set fill error element with error text
+    if (messages.length > 0) {
+      e.preventDefault();
+      errorElement.innerText = messages.join(", ");
+    }
+  });
+}
+
+formValidation();
+
 const fieldset = document.getElementById("kleur");
 const radioKleur = fieldset.querySelectorAll('input[type=radio]');
 const fieldsetMaat = document.getElementById("maat");
@@ -75,48 +116,17 @@ radioGeslacht.forEach((radiobutton) => {
   }
 })
 }
-function formValidation() {
-  const form = document.getElementById("bestelForm");
-  const naamForm = document.querySelectorAll("naamForm");
-  const postcodeForm = document.querySelectorAll("postcodeForm");
-  const mobielForm = document.querySelectorAll('mobielForm')
-  const adresForm = document.querySelectorAll("adresForm");
-  const errorElement = document.getElementById("error");
+function tekstTshirt() {
+  const textInput = document.getElementById("userText");
+  const editText = document.getElementById("tekstTshirt");
 
-  naamForm.forEach((form) => {
-    form.required = false
-  })
-  postcodeForm.forEach((form) => {
-    form.required = false
-  })
-  mobielForm.forEach((form) => {
-    form.required = false
-  })
-  adresForm.forEach((form) => {
-      form.required = false
-  })
-
-  form.addEventListener("submit", (e) => {
-    let messages = [];
-    if (![...naamForm].some((el) => el.checked == true)) {
-      messages.push("Vul je naam in");
-    }
-    if (![...postcodeForm].some((el) => el.checked == true)) {
-      messages.push("Vul je postcode in");
-    }
-    if (![...mobielForm].some((el) => el.checked == true)) {
-      messages.push("Vul je nummer in");
-    }
-    if (![...adresForm].some((el) => el.checked == true)) {
-      messages.push("Vul je adres in");
-    }
-
-    if (messages.length > 0) {
-      e.preventDefault();
-      errorElement.innerText = messages.join(", ");
-    }
-  });
+  if (textInput) {
+    textInput.addEventListener("keyup", () => {
+      editText.innerText = textInput.value;
+    });
+  }
 }
 
 storeColor();
+tekstTshirt();
 

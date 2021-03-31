@@ -20,6 +20,10 @@ app.get("/", (req, res) => {
   res.render("home.ejs", {formData:req.query});
 });
 
+app.post("/home", (req, res) => {
+  res.render("home.ejs", {formData:req.query});
+});
+
 app.get("/bestellen", (req, res) => {
   res.render("bestellen.ejs");
 });
@@ -30,7 +34,7 @@ app.get("/winkelmand", (req, res) => {
 
 app.post("/winkelmand", urlencodedParser, (req, res) => {
   if (req.body.kleur) {
-    res.redirect(`/?shirtColor=${req.body.shirtColor}&gender=${req.body.gender}&shirtSize=${req.body.shirtSize}`);
+    res.redirect(`/?shirtColor=${req.body.shirtColor}&gender=${req.body.gender}&shirtSize=${req.body.shirtSize}&userText=${req.body.userText}`);
   }
   else {
     const readableData = JSON.parse(fs.readFileSync("./data.json"));
