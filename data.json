@@ -11,6 +11,13 @@
       "gender": "woman",
       "shirttekst": "Niels",
       "verstuur": ""
+    },
+    {
+      "shirtColor": "blue",
+      "shirtSize": "m",
+      "gender": "woman",
+      "userText": "iets",
+      "verstuur": ""
     }
   ]
 }
