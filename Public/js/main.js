@@ -116,16 +116,6 @@ radioGeslacht.forEach((radiobutton) => {
   }
 })
 }
-function tekstTshirt() {
-  const textInput = document.getElementById("userText");
-  const editText = document.getElementById("tekstTshirt");
-
-  if (textInput) {
-    textInput.addEventListener("keyup", () => {
-      editText.innerText = textInput.value;
-    });
-  }
-}
 
 storeColor();
 tekstTshirt();
