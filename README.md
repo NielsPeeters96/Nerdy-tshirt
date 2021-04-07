@@ -80,4 +80,4 @@ Met zowel EJS als Javascript gedaan. Met Javascript wordt het t-shirt vanzelf in
 
 ### Tekst toevoegen (vergeten)
 
-Dit was een vereiste die bij de opdracht hoort. In de applicatie heb ik deze nu toegevoegd en werkt geleidelijk met het t-shirt. Dit werkt echter alleen met Javascript. Wanneer Javascript uitstaat dan zie je in de winkelmand pas de tekst die je erbij hebt gekozen.
+Dit was een vereiste die bij de opdracht hoort. In de applicatie heb ik deze nu toegevoegd en werkt geleidelijk met het t-shirt. Dit werkt echter alleen met Javascript. Wanneer Javascript uitstaat dan zie je in de winkelmand pas de tekst en de daadwerkelijke kleur die je erbij hebt gekozen.
